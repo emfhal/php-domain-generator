@@ -6,16 +6,15 @@ require("functions.php");
 define("URL", (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
 
 $chars = array();
-$chars[] = "*l"; //random letter;
-$chars[] = "*l"; //random letter;
-$chars[] = "*l"; //random letter;
-$chars[] = "*l"; //random letter;
-$chars[] = "*l"; //random letter;
-$chars[] = "*n"; //random number;
-
-$stop = countCharRand($chars); // The option number (of all diffrent combination char)
-
+$chars[] = "*l"; //1 random letter;
+$chars[] = "*l"; //1 random letter;
+$chars[] = "*l"; //1 random letter;
+$chars[] = "*l"; //1 random letter;
+$chars[] = "*l"; //1 random letter;
+$chars[] = "*n"; //1 random number;
 $tld = "com";
+
+$stop = countCharRand($chars); // Total combination of chars for the Domain name (when to stop)
 
 header('Content-Type: application/json; charset=utf-8');
 echo json_encode(isDomainFree($chars, $tld, $stop, array(), array()));
