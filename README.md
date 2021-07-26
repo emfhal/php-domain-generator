@@ -34,7 +34,7 @@ $tld = "com";
 2. Edit the "phpWhois/index.php" file and replace the API keys you received from the domain providers (Godaddy, Dynadot, and ResellerClub"). *
 It is important to check with each domain provider the restrictions of the free API before using it.
 
-3. Edit the "index.php" files and change the $chars and $tld values.
+3. Edit the "index.php" file and change the $chars and $tld values.
 
 
 # Credits
