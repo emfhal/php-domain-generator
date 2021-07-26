@@ -2,7 +2,7 @@
 The goal is to create a system for finding opportunities for free domain registration.
 
 
-##In order to find a free domain in the format ***LLLLN.com***
+## In order to find a free domain in the format ***LLLLN.com***
 The chars and tld should be modified in the index.php file as follows:
 
 ```php
@@ -15,7 +15,7 @@ $chars[] = "*n"; //random number;
 $tld = "com";
 ```
 
-##Installation steps
+## Installation steps
 1. Download whois files from [phpwhois](https://sourceforge.net/projects/phpwhois/files/latest/download) and copy to "phpWhois/src/" folder
 
 2. Edit the "phpWhois/index.php" file and replace the API keys you received from the domain providers (Godaddy, Dynadot, and ResellerClub"). *
@@ -23,14 +23,14 @@ It is important to check with each domain provider the restrictions of the free 
 
 3. Edit the "index.php" files and change the $chars and $tld values
 
-#Credits
-##PHPWhois
+# Credits
+## PHPWhois
 Mark Jeftovic markjr@easydns.com
 David Saez Padros david@ols.es
 Ross Golder ross@golder.org
 Dmitry Lukashin dmitry@lukashin.ru
 
-#CodePunch\Whois
+# CodePunch\Whois
 Anil Kumar <akumar@codepunch.com>
 
 
