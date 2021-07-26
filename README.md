@@ -23,14 +23,14 @@ It is important to check with each domain provider the restrictions of the free 
 
 3. Edit the "index.php" files and change the $chars and $tld values.
 
-# Credits
-## PHPWhois
+#### Credits
+##### PHPWhois
 Mark Jeftovic markjr@easydns.com
 David Saez Padros david@ols.es
 Ross Golder ross@golder.org
 Dmitry Lukashin dmitry@lukashin.ru
 
-# CodePunch\Whois
+##### CodePunch\Whois
 Anil Kumar <akumar@codepunch.com>
 
 
