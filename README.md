@@ -16,12 +16,12 @@ $tld = "com";
 ```
 
 ## Installation steps
-1. Download whois files from [phpwhois](https://sourceforge.net/projects/phpwhois/files/latest/download) and copy to "phpWhois/src/" folder
+1. Download whois files from [phpwhois](https://sourceforge.net/projects/phpwhois/files/latest/download) and copy to "phpWhois/src/" folder.
 
 2. Edit the "phpWhois/index.php" file and replace the API keys you received from the domain providers (Godaddy, Dynadot, and ResellerClub"). *
-It is important to check with each domain provider the restrictions of the free API before using it
+It is important to check with each domain provider the restrictions of the free API before using it.
 
-3. Edit the "index.php" files and change the $chars and $tld values
+3. Edit the "index.php" files and change the $chars and $tld values.
 
 # Credits
 ## PHPWhois
