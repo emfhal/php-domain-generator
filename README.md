@@ -15,11 +15,12 @@ $chars[] = "*n"; //1 random number;
 $tld = "com";
 ```
 
-## Available domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,...)
+## Available domain in the format ***ABC(L/N)LNN.com*** (ABC9X11.COM, ABCPY22.com,...)
 ```php
 $chars[] = "A"; 
 $chars[] = "B"; 
 $chars[] = "C";
+$chars[] = "*a"; //1 random char (letter or number);
 $chars[] = "*l"; //1 random letter;
 $chars[] = "**n"; //2 same random number;
 
