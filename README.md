@@ -36,16 +36,6 @@ It is important to check with each domain provider the restrictions of the free 
 3. Edit the "index.php" files and change the $chars and $tld values.
 
 
-#### Feature requests, and bug fixes
-
-
-If you want a feature or a bug fixed, [report it via project's issues tracker](https://github.com/emfhal/phpWhois-Domain-Generator/issues). However, if it's something you can fix yourself, *fork* the project, *do* whatever it takes to resolve it, and finally submit a *pull* request. I will personally thank you, and add your name to the list of contributors.
-
-#### Author
-
-- **Emfhal** [http://github.com/emfhal](http://github.com/emfhal)
-
-
 # Credits
 ## PHPWhois
 Mark Jeftovic <markjr@easydns.com>
@@ -55,4 +45,15 @@ Dmitry Lukashin <dmitry@lukashin.ru>
 
 ## CodePunch\Whois
 Anil Kumar <akumar@codepunch.com>
+
+# Contributing
+
+#### Feature requests, and bug fixes
+
+If you want a feature or a bug fixed, [report it via project's issues tracker](https://github.com/emfhal/phpWhois-Domain-Generator/issues). However, if it's something you can fix yourself, *fork* the project, *do* whatever it takes to resolve it, and finally submit a *pull* request. I will personally thank you, and add your name to the list of contributors.
+
+#### Author
+
+- **Emfhal** [http://github.com/emfhal](http://github.com/emfhal)
+
 
