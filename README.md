@@ -2,7 +2,7 @@
 The goal is to create a system for finding opportunities for free domain registration.
 
 
-## Free domain in the format ***LLLLN.com*** (AXCF1.COM, AFDW3.COM,...)
+## Available domain in the format ***LLLLN.com*** (AXCF1.COM, AFDW3.COM,...)
 The chars and tld should be modified in the index.php file as follows:
 
 ```php
@@ -15,7 +15,7 @@ $chars[] = "*n"; //1 random number;
 $tld = "com";
 ```
 
-## Free domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,...)
+## Available domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,...)
 ```php
 $chars[] = "A"; 
 $chars[] = "B"; 
