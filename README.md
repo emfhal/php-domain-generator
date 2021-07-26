@@ -15,7 +15,7 @@ $chars[] = "*n"; //1 random number;
 $tld = "com";
 ```
 
-## Free domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,..)
+## Free domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,...)
 ```php
 $chars[] = "A"; 
 $chars[] = "B"; 
