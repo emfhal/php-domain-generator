@@ -17,11 +17,11 @@ $tld = "com";
 
 ## Free domain in the format ***ABCLNN.com*** (ABCX11.COM, ABCY22.com,..)
 ```php
-$chars[] = "A"; //1 random letter;
-$chars[] = "B"; //1 random letter;
-$chars[] = "C"; //1 random letter;
+$chars[] = "A"; 
+$chars[] = "B"; 
+$chars[] = "C";
 $chars[] = "*l"; //1 random letter;
-$chars[] = "**n"; //1 random letter;
+$chars[] = "**n"; //2 same random number;
 
 $tld = "com";
 
