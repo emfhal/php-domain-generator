@@ -40,9 +40,13 @@ It is important to check with each domain provider the restrictions of the free 
 # Credits
 ## PHPWhois
 Mark Jeftovic <markjr@easydns.com>
+
 David Saez Padros <david@ols.es>
+
 Ross Golder <ross@golder.org>
+
 Dmitry Lukashin <dmitry@lukashin.ru>
+
 
 ## CodePunch\Whois
 Anil Kumar <akumar@codepunch.com>
