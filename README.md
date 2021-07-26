@@ -1,4 +1,4 @@
-# Welcome to PHP Domain Generator!
+# Welcome to phpWhois Domain Generator!
 The goal is to create a system for finding opportunities for free domain registration.
 
 
